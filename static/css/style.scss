@@ -94,9 +94,10 @@
  
  /*显示省略号*/
  .ellipsis{
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;  
+    white-space: nowrap;
  }
  /*清除浮动*/
 .clearfix:before,
@@ -139,4 +140,18 @@
 }
 .padd{
   padding:0 1.0769rem; 
+}
+.b-active{
+  color:#db9e3f;
+  cursor: pointer;
+  border-bottom:0.1538rem solid #db9e3f;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-b{
+  justify-content: space-between;
+}
+.min-width{
+  min-width: 0;
 }
